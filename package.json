@@ -1,5 +1,5 @@
 {
-  "name": "chat-flow-backend-nextjs",
+  "name": "bard-api",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@google-ai/generativelanguage": "^1.1.0",
-    "google-auth-library": "^9.2.0",
-    "next": "14.0.2",
-    "react": "^18",
-    "react-dom": "^18"
+    "@google-ai/generativelanguage": "^0.2.0",
+    "google-auth-library": "^8.8.0",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.4"
   }
 }

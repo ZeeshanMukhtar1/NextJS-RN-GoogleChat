@@ -2,7 +2,7 @@ const { DiscussServiceClient } = require('@google-ai/generativelanguage');
 const { GoogleAuth } = require('google-auth-library');
 
 const MODEL_NAME = 'models/chat-bison-001';
-// const API_KEY = process.env.BARD_API_KEY;
+// const API_KEY = process.env.BARD_API_KEY
 const API_KEY = 'AIzaSyC_grYvveTbCirEn0C2QqLH_6xSH_wuteY';
 
 const client = new DiscussServiceClient({
